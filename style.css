@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ff8000; /* Laranja vibrante */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.deck {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.suit {
+    font-size: 80px;
+}
+
+.value {
+    font-size: 40px;
+}
+}
+
+.controls {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    background-color: #008000; /* Verde escuro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #006400; /* Verde mais escuro */
+}
+
+footer {
+    background-color: #ff8000; /* Laranja vibrante */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
